@@ -25,3 +25,7 @@
 .searchBox_input:focus {
     outline: none;
 }
+
+.searchIcon {
+    cursor: pointer;
+}
