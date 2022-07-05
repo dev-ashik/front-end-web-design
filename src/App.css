@@ -118,3 +118,16 @@
 .note {
   color: rgb(124, 177, 0);
 }
+
+
+
+.codeAndSitebtn {
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  text-decoration: none;
+  background-color: #0082e6;
+  margin: 10px 10px 5px 0;
+  display: inline-block;
+  text-align: center;
+}
