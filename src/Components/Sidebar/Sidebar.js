@@ -21,15 +21,12 @@ const Sidebar = () => {
 
       {/* A end */}
       {/* B start */}
-      <Link to="/toggle-button" className={styles.link}>
-        <ToggleOnIcon className={styles.linkIcon} />
-        <span className={styles.linkName}>Toggle Button</span>
-      </Link>
+     
       {/* B end */}
       {/* C start */}
-      <Link to="/grid-card" className={styles.link}>
+      <Link to="/heading" className={styles.link}>
         <ViewQuiltIcon className={styles.linkIcon} />
-        <span className={styles.linkName}>Grid Card</span>
+        <span className={styles.linkName}>Heading</span>
       </Link>
       {/* C end */}
       {/* D start */}
@@ -63,10 +60,7 @@ const Sidebar = () => {
 
       {/* M end */}
       {/* N start */}
-      <Link to="/navigation-bar" className={styles.link}>
-        <AddCardIcon className={styles.linkIcon} />
-        <span className={styles.linkName}>Navigation</span>
-      </Link>
+      
       {/* N end */}
       {/* O start */}
 
