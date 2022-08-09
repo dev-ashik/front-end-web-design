@@ -8,6 +8,7 @@ import {
 import NavigationBar from './Components/Body/NavigationBar/NavigationBar';
 import Home from './Components/Body/Home/Home';
 import Test from './Components/Body/Test/Test';
+import GridCard from './Components/Body/GridCard/GridCard';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path="/"  element={<Home/>} />
 
+          <Route path="grid-card"  element={<GridCard/>} />
           <Route path="navigation-bar"  element={<NavigationBar/>} />
 
           

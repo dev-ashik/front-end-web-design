@@ -11,8 +11,12 @@
   text-align: center;
   cursor: pointer;
   border: none;
-  background-image: linear-gradient(to right, #77A1D3 0%, #1BC0E4  51%, #77A1D3  100%)
-  
+  background-image: linear-gradient(
+    to right,
+    #77a1d3 0%,
+    #1bc0e4 51%,
+    #77a1d3 100%
+  );
 }
 
 .seeCodeButton {
@@ -28,25 +32,25 @@
   text-align: center;
   cursor: pointer;
   border: none;
-  background-image: linear-gradient(to right, #106b80  51%, #1f3e63  100%)
-  
+  background-image: linear-gradient(to right, #106b80 51%, #1f3e63 100%);
 }
 
-.githubLinkButton:hover, .seeCodeButton:hover {
+.githubLinkButton:hover,
+.seeCodeButton:hover {
   background-position: right center;
   color: rgb(223, 215, 215);
   text-decoration: none;
 }
 
 .name {
-  border-bottom: 2px solid #1BC0E4;
+  border-bottom: 2px solid #1bc0e4;
   text-align: center;
-  color: #1BC0E4;
+  color: #1bc0e4;
   margin-bottom: 10px;
 }
 
 .section {
-  border: 2px solid #684C79;
+  border: 2px solid #684c79;
   padding: 20px;
   margin: 20px 0;
 }
@@ -65,7 +69,7 @@
 }
 .codeRunDiv {
   background-color: #39475a;
-  border-top: 5px solid  #723B5D;
+  border-top: 5px solid #723b5d;
   margin: 10px 0;
   padding: 10px;
   min-height: 100px;
@@ -74,16 +78,15 @@
 .cssComment {
   color: #13a55a;
   /* color: #19c26a; */
-  
 }
 .seclector {
-  color: #D7BA7D;
+  color: #d7ba7d;
 }
 .cssName {
-  color: #9CDCFE;
+  color: #9cdcfe;
 }
 .cssTextvalue {
-  color: #CE8349;
+  color: #ce8349;
 }
 .cssNumberValue {
   color: CE8349;
@@ -100,7 +103,6 @@
   /* color: #ecf58a; */
   color: #cbd36f;
 }
-
 
 .codeColor4 {
   color: #a783dc;
@@ -119,8 +121,6 @@
   color: rgb(124, 177, 0);
 }
 
-
-
 .codeAndSitebtn {
   color: white;
   font-size: 17px;
@@ -130,4 +130,46 @@
   margin: 10px 10px 5px 0;
   display: inline-block;
   text-align: center;
+}
+
+/* project card */
+.wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.wrapper .card:nth-child(1) {
+  width: 70%;
+}
+
+.wrapper .card:nth-child(2) {
+  width: 30%;
+}
+
+.card img {
+  width: 100%;
+  height: 400px;
+}
+
+@media (max-width: 850px) {
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .wrapper .card:nth-child(1) {
+    width: 100%;
+  }
+  
+  .wrapper .card:nth-child(2) {
+    width: 50%;
+  }
+}
+@media (max-width: 550px) {
+  .wrapper .card:nth-child(1) {
+    width: 100%;
+  }
+  
+  .wrapper .card:nth-child(2) {
+    width: 100%;
+  }
 }
