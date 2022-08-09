@@ -1,15 +1,14 @@
-import React from 'react';
-import Layout from '../../Layout/Layout';
-import styles from './GridCard.module.css';
-import gridCard1 from '../../../images/grid-card1.png';
-import gridCard1Responsive from '../../../images/grid-card1-responsive.png';
-import gridCard2 from '../../../images/grid-card-2.png';
-import gridCard2Responsive from '../../../images/grid-card-2-responsive.png';
+import React from "react";
+import Layout from "../../Layout/Layout";
+import gridCard1 from "../../../images/grid-card1.png";
+import gridCard1Responsive from "../../../images/grid-card1-responsive.png";
+import gridCard2 from "../../../images/grid-card-2.png";
+import gridCard2Responsive from "../../../images/grid-card-2-responsive.png";
 
 const GridCard = () => {
-    return (
-        <Layout>
-            <div className="name">
+  return (
+    <Layout>
+      <div className="name">
         <h2>navigation bar</h2>
       </div>
       <section className="section">
@@ -41,7 +40,14 @@ const GridCard = () => {
         >
           visit site
         </a>
-        <a href="https://codepen.io/dev-ashik/pen/KKoebzX" target="_blank" className='codeAndSitebtn' rel="noreferrer">Codepen</a>
+        <a
+          href="https://codepen.io/dev-ashik/pen/KKoebzX"
+          target="_blank"
+          className="codeAndSitebtn"
+          rel="noreferrer"
+        >
+          Codepen
+        </a>
       </section>
 
       <section className="section">
@@ -73,10 +79,17 @@ const GridCard = () => {
         >
           visit site
         </a> */}
-        <a href="https://codepen.io/dev-ashik/pen/YzavdGz" target="_blank" className='codeAndSitebtn' rel="noreferrer">Codepen</a>
+        <a
+          href="https://codepen.io/dev-ashik/pen/YzavdGz"
+          target="_blank"
+          className="codeAndSitebtn"
+          rel="noreferrer"
+        >
+          Codepen
+        </a>
       </section>
-        </Layout>
-    );
+    </Layout>
+  );
 };
 
 export default GridCard;

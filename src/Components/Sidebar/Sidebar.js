@@ -5,6 +5,8 @@ import styles from "./Sidebar.module.css";
 import PrecisionManufacturingIcon from "@mui/icons-material/PrecisionManufacturing";
 
 import AddCardIcon from "@mui/icons-material/AddCard";
+import ViewQuiltIcon from '@mui/icons-material/ViewQuilt';
+import ToggleOnIcon from '@mui/icons-material/ToggleOn';
 import { Divider } from "@mui/material";
 
 const Sidebar = () => {
@@ -19,10 +21,14 @@ const Sidebar = () => {
 
       {/* A end */}
       {/* B start */}
+      <Link to="/toggle-button" className={styles.link}>
+        <ToggleOnIcon className={styles.linkIcon} />
+        <span className={styles.linkName}>Toggle Button</span>
+      </Link>
       {/* B end */}
       {/* C start */}
       <Link to="/grid-card" className={styles.link}>
-        <AddCardIcon className={styles.linkIcon} />
+        <ViewQuiltIcon className={styles.linkIcon} />
         <span className={styles.linkName}>Grid Card</span>
       </Link>
       {/* C end */}
