@@ -33,10 +33,8 @@ const Sidebar = () => {
       </Link>
       {/* C end */}
       {/* D start */}
-
       {/* D end */}
       {/* E start */}
-
       {/* E end */}
       {/* F start */}
 
