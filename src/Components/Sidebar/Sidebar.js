@@ -5,8 +5,8 @@ import styles from "./Sidebar.module.css";
 import PrecisionManufacturingIcon from "@mui/icons-material/PrecisionManufacturing";
 
 import AddCardIcon from "@mui/icons-material/AddCard";
-import ViewQuiltIcon from '@mui/icons-material/ViewQuilt';
-import ToggleOnIcon from '@mui/icons-material/ToggleOn';
+import ViewQuiltIcon from "@mui/icons-material/ViewQuilt";
+import ToggleOnIcon from "@mui/icons-material/ToggleOn";
 import { Divider } from "@mui/material";
 
 const Sidebar = () => {
@@ -21,12 +21,12 @@ const Sidebar = () => {
 
       {/* A end */}
       {/* B start */}
-     
+
       {/* B end */}
       {/* C start */}
-      <Link to="/heading" className={styles.link}>
+      <Link to="/grid-card" className={styles.link}>
         <ViewQuiltIcon className={styles.linkIcon} />
-        <span className={styles.linkName}>Heading</span>
+        <span className={styles.linkName}>grid-card</span>
       </Link>
       {/* C end */}
       {/* D start */}
@@ -58,7 +58,10 @@ const Sidebar = () => {
 
       {/* M end */}
       {/* N start */}
-      
+      <Link to="/navigation" className={styles.link}>
+        <AddCardIcon className={styles.linkIcon} />
+        <span className={styles.linkName}>Navbar</span>
+      </Link>
       {/* N end */}
       {/* O start */}
 
@@ -76,7 +79,10 @@ const Sidebar = () => {
 
       {/* S end */}
       {/* T start */}
-
+      <Link to="/toggle-button" className={styles.link}>
+        <ToggleOnIcon className={styles.linkIcon} />
+        <span className={styles.linkName}>Boggle Button</span>
+      </Link>
       {/* T end */}
       {/* U start */}
 

@@ -7,7 +7,9 @@ import {
 
 import Home from './Components/Body/Home/Home';
 import Test from './Components/Body/Test/Test';
-import Heading from './Components/Body/Heading/Heading';
+import Navigation from './Components/Body/Navigation/Navigation';
+import GridCard from './Components/Body/GridCard/GridCard';
+import ToggleButton from './Components/Body/ToggleButton/ToggleButton';
 
 function App() {
   return (
@@ -16,7 +18,9 @@ function App() {
         <Routes>
           <Route path="/"  element={<Home/>} />
 
-          <Route path="heading"  element={<Heading/>} />
+          <Route path="navigation"  element={<Navigation/>} />
+          <Route path="grid-card"  element={<GridCard/>} />
+          <Route path="toggle-button"  element={<ToggleButton/>} />
 
           <Route path="test"  element={<Test/>} />
         </Routes>
