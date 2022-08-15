@@ -7,6 +7,8 @@ import PrecisionManufacturingIcon from "@mui/icons-material/PrecisionManufacturi
 import AddCardIcon from "@mui/icons-material/AddCard";
 import ViewQuiltIcon from "@mui/icons-material/ViewQuilt";
 import ToggleOnIcon from "@mui/icons-material/ToggleOn";
+import AddToPhotosIcon from '@mui/icons-material/AddToPhotos';
+import MessageIcon from '@mui/icons-material/Message';
 import { Divider } from "@mui/material";
 
 const Sidebar = () => {
@@ -55,7 +57,14 @@ const Sidebar = () => {
 
       {/* L end */}
       {/* M start */}
-
+      <Link to="/modal" className={styles.link}>
+        <AddToPhotosIcon className={styles.linkIcon} />
+        <span className={styles.linkName}>Modal</span>
+      </Link>
+      <Link to="/shortTimeMessage" className={styles.link}>
+        <MessageIcon className={styles.linkIcon} />
+        <span className={styles.linkName}>short time message</span>
+      </Link>
       {/* M end */}
       {/* N start */}
       <Link to="/navigation" className={styles.link}>

@@ -9,12 +9,12 @@ const GridCard = () => {
   return (
     <Layout>
       <div className="name">
-        <h2>navigation bar</h2>
+        <h2>Grid card</h2>
       </div>
       <section className="section">
         <div className="wrapper">
           <div className="card">
-            <h3>grid-card-1</h3>
+            <h3>grid-card-1 (HTML)</h3>
             <img src={gridCard1} alt="nav" />
           </div>
           <div className="card">
@@ -53,7 +53,7 @@ const GridCard = () => {
       <section className="section">
         <div className="wrapper">
           <div className="card">
-            <h3>grid-card-2</h3>
+            <h3>grid-card-2 (HTML)</h3>
             <img src={gridCard2} alt="nav" />
           </div>
           <div className="card">

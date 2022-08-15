@@ -8,12 +8,12 @@ const ToggleButton = () => {
   return (
     <Layout>
       <div className="name">
-        <h2>navigation bar</h2>
+        <h2>Toggle Button</h2>
       </div>
       <section className="section">
         <div className="wrapper">
           <div className={styles.card}>
-            <h3>Toggle Button</h3>
+            <h3>Toggle Button (HTML)</h3>
             <img src={toggleButton} alt="nav" />
           </div>
           <div className={styles.card}>

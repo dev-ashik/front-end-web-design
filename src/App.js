@@ -10,6 +10,7 @@ import Test from './Components/Body/Test/Test';
 import Navigation from './Components/Body/Navigation/Navigation';
 import GridCard from './Components/Body/GridCard/GridCard';
 import ToggleButton from './Components/Body/ToggleButton/ToggleButton';
+import Modal from './Components/Body/Modal/Modal';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
 
           <Route path="navigation"  element={<Navigation/>} />
           <Route path="grid-card"  element={<GridCard/>} />
+          <Route path="modal"  element={<Modal/>} />
           <Route path="toggle-button"  element={<ToggleButton/>} />
 
           <Route path="test"  element={<Test/>} />
