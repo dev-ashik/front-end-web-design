@@ -9,6 +9,8 @@ import ViewQuiltIcon from "@mui/icons-material/ViewQuilt";
 import ToggleOnIcon from "@mui/icons-material/ToggleOn";
 import AddToPhotosIcon from '@mui/icons-material/AddToPhotos';
 import MessageIcon from '@mui/icons-material/Message';
+import CompareArrowsIcon from '@mui/icons-material/CompareArrows';
+
 import { Divider } from "@mui/material";
 
 const Sidebar = () => {
@@ -85,7 +87,10 @@ const Sidebar = () => {
 
       {/* R end */}
       {/* S start */}
-
+      <Link to="/slider" className={styles.link}>
+        <CompareArrowsIcon className={styles.linkIcon} />
+        <span className={styles.linkName}>Slider</span>
+      </Link>
       {/* S end */}
       {/* T start */}
       <Link to="/toggle-button" className={styles.link}>
